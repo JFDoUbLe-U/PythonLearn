@@ -65,3 +65,5 @@ pythonL.append("L")
 # aList[1:3] = [20, 24, 28]
 # print(aList)
 print(pythonL[2:5])
+pythonL.sort()
+# print(pythonL)
