@@ -25,3 +25,8 @@
 # var3 = "3"
 
 # print(var1 + var2 + var3)
+
+import datetime
+
+now = datetime.datetime.now()
+print(now)
