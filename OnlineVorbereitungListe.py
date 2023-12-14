@@ -1,4 +1,4 @@
-Liste1 = list(("P","Y","T","H","O","N"))
+Liste1 = ["P","Y","T","H","O","N"]
 Liste2 = [300,2,3,"4","Hallo",99,"Test"]
 # print("Liste1: ",Liste1,"\nListe2: ",Liste2)
 # print(len(Liste1),len(Liste2))
@@ -23,9 +23,9 @@ Liste2 = [300,2,3,"4","Hallo",99,"Test"]
 # print(Liste1)
 # Liste1.extend([8,9,10])
 # print(Liste1)
-# Liste1.remove(1.0)
+# Liste1.remove("P")
 # print(Liste1)
-# Liste1.pop(6)
+# Liste1.pop(4)
 # print(Liste1)
 # del Liste1[6:len(Liste1)]
 # print(Liste1)
@@ -35,8 +35,8 @@ Liste2 = [300,2,3,"4","Hallo",99,"Test"]
 # pythonL.append("L")
 # print(pythonL,"\n",Liste1)
 # pythonL.remove("L")
-pythonL = Liste1.copy()
-pythonL.append("L")
+# pythonL = Liste1.copy()
+# pythonL.append("L")
 # print(pythonL,"\n",Liste1)
 # print(max(pythonL))
 # print(sum(pythonL)) #Geht nicht mit Strings
@@ -64,6 +64,6 @@ pythonL.append("L")
 # aList = [4, 8, 12, 16]
 # aList[1:3] = [20, 24, 28]
 # print(aList)
-print(pythonL[2:5])
-pythonL.sort()
+# print(pythonL[2:5])
+# pythonL.sort()
 # print(pythonL)

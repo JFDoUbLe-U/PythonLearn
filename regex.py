@@ -5,7 +5,7 @@ print("without raw string:")
 target_string = r"c:\example\task\new\exercises\session1"
 
 # regex pattern
-pattern = "^c:\\example\\task\\new"
+pattern = r"^c:\\example\\task\\new"
 # \n and \t has a special meaning in Python
 # Python will treat them differently
 res = re.search(pattern, target_string)
